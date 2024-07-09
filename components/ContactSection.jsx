@@ -67,7 +67,7 @@ const ContactSection = () => {
                     posts.map((post)=>(
                         <article key={post.id} className=" flex max-w-xl flex-col items-start justify-between">
                             <div className=" flex items-center gap-x-4 text-xs">
-                                <time datetime={post.datetime}>
+                                <time dateTime={post.datetime}>
                                     <Image src='/image/star.svg' width={80} height={5} />
                                 </time>
                                 <a href={post.category.href} className=" relative z-10 bg-primary rounded-full text-white px-3 py-1.5 font-medium hover:bg-gray-100 hover:text-black transition-all">
